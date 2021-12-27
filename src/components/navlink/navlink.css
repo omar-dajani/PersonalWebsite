@@ -1,0 +1,42 @@
+#button {
+    font-size: 13px;
+    border: none;
+    background: none;
+    color: #ccd6f6;
+    margin-right: 10px;
+}
+
+.test6 {
+    color: #ccd6f6 !important;
+}
+
+#button:hover {
+    color: #64ffda;
+    transition: 0.5s;
+}
+
+#num {
+    font-size: 12px;
+    color: #64ffda;
+}
+
+@media only screen and (max-width: 768px) {
+    #num, #label {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #num {
+        margin-bottom: 5px;
+    }
+
+    #button {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #space {
+        display: none;
+    }
+}

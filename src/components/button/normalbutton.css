@@ -1,0 +1,11 @@
+#normalbutton {
+    background: none;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    font-family: SFMono;
+}
+
+#normalbutton:hover {
+    background: rgba(100, 255, 218, 0.1);
+    transition: 0.3s;
+}

@@ -1,0 +1,33 @@
+#built-by {
+    text-align: center;
+    color: #8892b0;
+    font-size: 12px;
+    font-family: SFMono;
+    margin-bottom: 20px;
+}
+
+#side-bar-bottom {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #side-bar-bottom {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #side-bar-bottom i {
+        font-size: 20px;
+        color: #cdd6f6;
+        transition: 0.3s;
+    }
+
+    #side-bar-bottom i:hover {
+        color: #64ffda;
+    }
+
+    #side-bar-bottom a:not(:last-child) {
+        margin-right: 30px;
+    }
+}

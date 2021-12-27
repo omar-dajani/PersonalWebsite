@@ -1,0 +1,62 @@
+#container {
+    padding-left: 10%;
+    margin-bottom: 180px;
+}
+
+.link {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: #64ffda;
+    transition: 0.3s;
+}
+
+.link:hover {
+    border-bottom: 1px solid #64ffda;
+    cursor: ne-resize;
+}
+
+#hi {
+    font-size: 15px;
+    color: #64ffda;
+    font-family: SFMono;
+}
+
+#large-name {
+    line-height: 1;
+    font-size: 6vw;
+    color: #cdd6f6;
+    font-family: Calibre-Semibold;
+
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+#large-caption {
+    line-height: 1;
+    font-size: 5vw;
+    color: #8992b0;
+    font-family: Calibre-Semibold;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#short-description {
+    font-family: Calibre;
+    color: #8992b0;
+    font-size: 20px;
+    width: 500px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        padding: 5%;
+    }
+
+    #short-description {
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+#nav {
+    margin-bottom: 50px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: SFMono !important;
+    background: #0a1a30 !important;
+}
+
+#links {
+    margin-right: 30px;
+}
+
+#logo {
+    margin-left: 34px;
+}
+
+#bars {
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.animated-div-nav {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    #links {
+        margin-right: 0px;
+    }
+
+    #logo {
+        margin-left: 10px;
+    }
+}

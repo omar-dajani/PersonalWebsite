@@ -1,0 +1,52 @@
+#container-0 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+#error-404 {
+    font-family: SFMono;
+    color: #64ffda;
+    font-size: 190px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#page-not-found {
+    font-family: Calibre;
+    font-size: 50px;
+    line-height: 1;
+    color: #ccd6f6;
+    margin-bottom: 30px;
+}
+
+#go-home {
+    background: none !important;
+    border: 1px solid #64ffda !important;
+    font-family: SFMono !important;
+    color: #64ffda !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-bottom: 10%;
+}
+
+#go-home:hover {
+    background: rgba(100, 255, 218, 0.1) !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #go-home {
+        margin-bottom: 50px;
+    }
+
+    #container-0 {
+        height: 390px;
+    }
+}
